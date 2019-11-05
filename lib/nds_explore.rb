@@ -5,6 +5,7 @@ require 'pry'
 # Call the method directors_database to retrieve the NDS
 
 def pretty_print_nds(nds)
+  binding.pry
   pp nds
   
   # Change the code below to pretty print the nds with pp
